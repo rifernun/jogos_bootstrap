@@ -2,22 +2,32 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Menu dos jogos</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
     <div id="navbar">
-        <h1>Menu</br>Jogos</h1>
-        <a href="#AN">Adivinha número</a>
-        <a href="#Quiz">Quiz</a>
-        <a href="#AI">Adivinha imagem</a>
+        <h1> MENU <br>JOGOS</h1>
+        <div class="dropdown" id="option">
+            <div class="dropdown">
+                <button id="butaozinho" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Jogos</button>
+                <ul class="dropdown-menu" id="dropdown-background">
+                  <li><a href="AN.html">Adivinha Número</a></li>
+                  <li><a href="AI.html">Adivinha Imagem</a></li>
+                  <li><a href="quiz.html">Quizz</a></li>
+                </ul>
+              </div>
+          </div>
     </div>
-</br>
     <div id="menu">
-        <h1>Imagem</h1>
+        <img src="IMAGENS/Menu.png">
     </div>
 </body>
 </html>
