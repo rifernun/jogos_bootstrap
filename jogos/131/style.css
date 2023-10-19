@@ -1,0 +1,26 @@
+body 
+{
+    background-color: rgb(95, 20, 20);
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+.botao input
+{
+    background-color: white;
+    width: auto;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.botao input:hover
+{
+    background-color: green;
+    border: 1px solid red;
+}
+img 
+{
+    max-width: 70%;
+    height: auto;
+}

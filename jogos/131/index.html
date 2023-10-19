@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Adivinhando o numero quê você pensou de 1 até 31 !!!!</title>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../../imgs/icon.png" type="imagem/x-icon">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <script language="Javascript">
+
+        alert('Pense num número de 1 até 31');
+        alert('Não conte e nem fale, pois vou adivinhar !!!!');
+        alert('Só errarei se você não identificar corretamente\n as cartas em que estão o número  que você pensou !!!');
+        alert('Então preste muita atenção ao escolher as cartas !!!');
+    </script>
+
+    <h1> Jogo da Adivinhação - Escolha um número de 1 até 31</h1>
+    <form name="formAdivinha" method="get">
+
+
+        <br><br><br><br><br>
+
+        <h2> Escolha abaixo as cartas em que seu número aparece.</h2>
+
+        <br><br>
+
+        <img src="imgs/carta1.png" />
+        <br>
+        <INPUT TYPE="radio" NAME="op1" VALUE="Sim">Sim
+        <INPUT TYPE="radio" NAME="op1" VALUE="Não" checked>Não<br /><br />
+        <img src="imgs/carta2.png" />
+        <br>
+        <INPUT TYPE="radio" NAME="op2" VALUE="Sim">Sim
+        <INPUT TYPE="radio" NAME="op2" VALUE="Não" checked>Não<br /><br />
+        <img src="imgs/carta3.png" />
+        <br>
+        <INPUT TYPE="radio" NAME="op3" VALUE="Sim">Sim
+        <INPUT TYPE="radio" NAME="op3" VALUE="Não" checked>Não<br /><br />
+        <img src="imgs/carta4.png" />
+        <br>
+        <INPUT TYPE="radio" NAME="op4" VALUE="Sim">Sim
+        <INPUT TYPE="radio" NAME="op4" VALUE="Não" checked>Não<br /><br />
+        <img src="imgs/carta5.png" />
+        <br>
+        <INPUT TYPE="radio" NAME="op5" VALUE="Sim">Sim
+        <INPUT TYPE="radio" NAME="op5" VALUE="Não" checked>Não<br /><br />
+        <div class="botao">
+            <input type="button" name="verifica" value="Ver o Resultado" onclick="respostas()">
+            <input type="reset" name="limpar" value="Limpar Respostas">
+        </div>
+    </form>
+
+    <br><br><br>
+
+    <a href="../../index.html" class="btn btn-dark btn-lg">Voltar</a>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
